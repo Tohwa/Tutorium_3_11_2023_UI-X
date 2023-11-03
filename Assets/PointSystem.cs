@@ -20,6 +20,6 @@ public class PointSystem : MonoBehaviour
 
     public void OnClick()
     {
-        points++;
+        points += Random.Range(0, 1000);
     }
 }
